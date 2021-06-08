@@ -34,20 +34,38 @@ p {
     border-radius: 50%;
     border: 5px double #F5A92E;
     shape-outside: circle(50%);
-}
-
-.casta-de-abelha[src$="imgs/zangao.png"] {
-    float: right;
-    margin-left: 20px;
-}
-
-.casta-de-abelha[src$="imgs/operaria.png"] {
     float: left;
     margin-right: 20px;
 }
 
-#naoseionome {
+.casta-de-abelha[src="imgs/zangao.png"] {
+    float: right;
+    margin-left: 20px;
+}
+
+#logoFundo {
     background-color: rgba(255, 255, 255, alpha);
     box-shadow: 4px 4px 4px #0003;
     padding: 30px;
+}
+
+a {
+    color: white;
+}
+
+a[href^="http"] {
+    background-color: #FEC631;
+}
+
+p:last-of-type {
+    text-align: right;
+}
+
+img:not([alt]) {
+    border-color: red;
+}
+
+#semFultuacao {
+    clear: left;
+    margin-top: 6%;
 }
