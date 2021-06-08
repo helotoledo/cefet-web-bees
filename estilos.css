@@ -50,11 +50,11 @@ p {
 }
 
 a {
-    color: white;
+    color: #864A9B;
 }
 
 a[href^="http"] {
-    background-color: #FEC631;
+    background-color: #D3D3D3;
 }
 
 p:last-of-type {
